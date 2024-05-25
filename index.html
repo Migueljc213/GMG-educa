@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMG Educação</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo-header" src="./img/logo.png" alt="logo" height="115px">
+        <div class="header-right">
+            <div class="contact-header">
+                <div class="contact-details">
+                    <p>contato@gmgeducação.com.br</p>
+                    <p><strong>(21) 00000-0000</strong></p>
+                </div>
+                <div>
+                    
+                    <ul class="social-media-header">
+                        <li><a href="/"><img src="./img/instagram.png" alt="instagram" width="30px" height="30px"></a>
+                        </li>
+                        <li><a href="/"><img src="./img/facebook.png" alt="facebook" width="30px" height="30px"></a>
+                        </li>
+                        <li><a href="/"><img src="./img/whatsapp.png" alt="whatsapp" width="30px" height="30px"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-header-dilistav">
+                <button class="btn-hamburguer" aria-expanded="false" aria-controls="menu">Menu</button>
+                <ul class="menu-header lista" >
+                    <li><a href="#sobre">SOBRE NÓS</a></li>
+                    <li><a href="#cursos">CURSOS</a></li>
+                    <li><a href="#rh">RH MAIS</a></li>
+                    <li class="login">
+                        <a href="/"> ENTRE / INSCREVA-SE</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <article class="background-register">
+            
+            <div class="container-register">
+                <div class="titulo-register">
+                    <img src="./img/iconeForm.png" alt="" width="150px" height="150px">
+                    <h1 class="titulos">INSCREVA-SE</h1>
+                </div>
+                <form class="register-form" action="/" method="post">
+                    <input type="text" name="nome-register" id="nome-register" placeholder="Nome" required></input>
+                    <input type="number" name="cpf" id="cpf" placeholder="CPF" required></input>
+                    <input type="text" name="empresa" id="empresa" placeholder="Empresa"></input>
+                    <input type="number" name="cnpj" id="cnpj" placeholder="CNPJ" required></input>
+                    <input type="text" name="treinamento" id="treinamento" placeholder="Treinamento"></input>
+                    <input type="text" name="contato" id="contato" placeholder="Contato + DDD" required></input>
+                    <input type="email" name="email-register" id="email-register" placeholder="Email" required></input>
+                    <input type="text" name="interesse" id="" placeholder="Área de interesse"></input>
+                    <button class="button register-button" type="submit">Enviar</button>
+                </form>
+            </div>
+        </article>
+        <div class="espaco">
+
+        </div>
+        <article id="sobre" class="background-sobre ">
+            <img class="soldador-img" src="./img/Foto Soldador.svg" alt="Soldador" width="500px">
+            <div class="container-sobre">
+                <h1 class="titulos">SOBRE NÓS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+                <a href="/" class="button sobre-button">SAIBA MAIS</a>
+            </div>
+        </article>
+    </main>
+    <article id="cursos" class="background-cursos">
+        <div class="container-cursos">
+            <h1 class="titulos">CURSOS E TREINAMENTO</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida. <br>
+                Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+            
+                <ul class="grid-itens-cursos">
+                    <li class="grid-item">
+                        <img src="./img/cursos-img01.png" alt=""  width="290px">
+                    </li>
+                    <li class="grid-item">
+                        <img src="./img/cursos-img02.png" alt=""  >
+                    </li>
+                    <li class="grid-item">
+                        <img src="./img/cursos-img03.png" alt=""  >
+                    </li>
+                    <li class="grid-item">
+                        <img src="./img/cursos-img04.png" alt=""  >
+                    </li>
+                </ul>
+            <a href="/" class="button cursos-button">CONHEÇA MAIS</a>
+        </div>
+    </article>
+
+    <section id="rh" class="background-rh">
+        <img class="aluna-img" src="./img/Aluna.svg" alt="aluna" width="500px">
+        <div class="container-rh">
+            <h1 class="titulos">RH MAIS</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <a href="/" class="button button-rh">SAIBA MAIS</a>
+        </div>
+    </section>
+
+
+    <article class="background-contato">
+        <div class="container-contato">
+            <h1 class="titulos">CONTATO</h1>
+            <h2>Lorem Ipsum sit dolor</h2>
+            <div class="card-contato">
+                <form class="form-contato" action="" method="post">
+                    <input type="text" name="nome-contato" id="nome-contato" placeholder="Nome">
+                    <input type="email" name="email-contato" id="email-contato" placeholder="Email">
+                    <input type="number" name="telefone-contato" id="telefone-contato" placeholder="Telefone">
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem" rows="8" cols="50"></textarea>
+                
+                </form>
+                <div class="endereco">
+                    <p >RIO DE JANEIRO - R. Crispim Assis Pereira, 175 - São Geraldo, Rio de Janeiro - RJ, 27253-520</p>
+                    <button type="submit">ENVIAR</button>
+                    
+                </div>
+            </div>
+        </div>
+    </article>
+    
+</body>
+    <footer class="background-footer">
+        <img class="footer-logo" src="./img/Logoverde.png" alt="">
+        <div class="footer-list">
+            <ul >
+                <li><img src="./img/local.png" alt="local" width="10px" height="10px"><p><strong> VOLTA REDONDA </strong> - R. Crispim Assis Pereira, 175 - São Geraldo, Volta Redonda - RJ, 27253-520</p></li>
+                <div class="footer-contato">
+                    <li><img src="./img/telephone-call.png" alt="telefone" width="10px" height="10px"> <p>(21)0000-00000</p></li>
+                    <li><img src="./img/email.png" alt="email" width="10px" height="10px"> <p>contato@gmg.educaçao.com</p></li>
+                </div>
+            </ul>
+        </div>
+        <div class="footer-social-media">
+            <a href=""><img src="./img/instagram.png" alt="" width="30px" height="30px"></a>
+            <a href=""><img src="./img/facebook.png" alt="" width="30px" height="30px"></a>
+            <a href=""><img src="./img/whatsapp.png" alt="" width="30px" height="30px"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</html>
