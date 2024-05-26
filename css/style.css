@@ -1,10 +1,29 @@
-@import url(./global.css);
-@import url(./reset.css);
-@import url(./header.css);
-@import url(./register.css);
-@import url(./sobre.css);
-@import url(./cursos.css);
-@import url(./rhmais.css);
-@import url(./contato.css);
-@import url(./footer.css);
-@import url(./menu-mobile.css);
+
+
+@import url(./RHmais/novidades.css);
+@import url(./RHmais/cadastrar.css);
+@import url(./RHmais/vagas.css);
+
+
+@import url(./Cursos/bannerCursos.css);
+
+@import url(./Sobre/bannerSobre.css);
+@import url(./Sobre/containerLoremSobre.css);
+@import url(./Sobre/emNumeros.css);
+@import url(./Sobre/contatoSobre.css);
+@import url(./Sobre/loremIpsum.css);
+/* ----------------Home---------------- */
+@import url(./home/global.css);
+@import url(./home/reset.css);
+@import url(./home/header.css);
+@import url(./home/register.css);
+@import url(./home/sobre.css);
+@import url(./home/cursos.css);
+@import url(./home/rhmais.css);
+@import url(./home/contato.css);
+@import url(./home/footer.css);
+@import url(./home/menu-mobile.css);
+
+/* ---------------BootStrap---------------- */
+
+@import url(./bootstrap-grid.css);
