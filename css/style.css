@@ -1,17 +1,20 @@
 
-
+/* ----------------RH mais---------------- */
 @import url(./RHmais/novidades.css);
 @import url(./RHmais/cadastrar.css);
 @import url(./RHmais/vagas.css);
 
-
+/* ----------------Curso---------------- */
 @import url(./Cursos/bannerCursos.css);
 
+/* ----------------Depoimento---------------- */
 @import url(./Sobre/bannerSobre.css);
 @import url(./Sobre/containerLoremSobre.css);
 @import url(./Sobre/emNumeros.css);
 @import url(./Sobre/contatoSobre.css);
 @import url(./Sobre/loremIpsum.css);
+@import url(./Sobre/depoimentos.css);
+
 /* ----------------Home---------------- */
 @import url(./home/global.css);
 @import url(./home/reset.css);
